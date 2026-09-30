@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Bandeiras de localização de contas para X"
+  },
+  "extDescription": {
+    "message": "Mostra a bandeira do país onde uma conta do X está baseada ao lado do @usuário em perfis e cartões flutuantes, com aviso de VPN."
+  },
+  "actionTitle": {
+    "message": "Bandeiras de localização de contas"
+  },
+  "tooltipBasedIn": {
+    "message": "Conta baseada em: $COUNTRY$",
+    "placeholders": {
+      "country": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipSource": {
+    "message": "Conectada via: $SOURCE$",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipVpn": {
+    "message": "⚠ Pode estar se conectando via VPN ou proxy (segundo o X)"
+  },
+  "popupScope": {
+    "message": "As bandeiras aparecem ao lado do @usuário em perfis e cartões flutuantes."
+  },
+  "popupEnabled": {
+    "message": "Ativado"
+  },
+  "popupShowVpn": {
+    "message": "Mostrar marca de VPN"
+  },
+  "popupInterval": {
+    "message": "Intervalo entre solicitações (s)"
+  },
+  "popupTtl": {
+    "message": "Manter cache por (dias)"
+  },
+  "popupCached": {
+    "message": "Contas em cache: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupRateLimited": {
+    "message": "Limite de solicitações atingido (retoma às $TIME$)",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastFetched": {
+    "message": "Última busca: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastError": {
+    "message": "Último erro: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupClearCache": {
+    "message": "Limpar cache"
+  }
+}

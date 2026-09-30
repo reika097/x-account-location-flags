@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Drapeaux de localisation des comptes pour X"
+  },
+  "extDescription": {
+    "message": "Affiche le drapeau du pays d’un compte X à côté de son @pseudo sur les profils et les cartes de survol, avec un indicateur VPN."
+  },
+  "actionTitle": {
+    "message": "Drapeaux de localisation des comptes"
+  },
+  "tooltipBasedIn": {
+    "message": "Pays du compte : $COUNTRY$",
+    "placeholders": {
+      "country": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipSource": {
+    "message": "Connecté via : $SOURCE$",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipVpn": {
+    "message": "⚠ Connexion possible via VPN ou proxy (selon X)"
+  },
+  "popupScope": {
+    "message": "Les drapeaux s’affichent à côté du @pseudo sur les profils et les cartes de survol."
+  },
+  "popupEnabled": {
+    "message": "Activé"
+  },
+  "popupShowVpn": {
+    "message": "Afficher la marque VPN"
+  },
+  "popupInterval": {
+    "message": "Intervalle entre requêtes (s)"
+  },
+  "popupTtl": {
+    "message": "Durée du cache (jours)"
+  },
+  "popupCached": {
+    "message": "Comptes en cache : $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupRateLimited": {
+    "message": "Limite de requêtes atteinte (reprise à $TIME$)",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastFetched": {
+    "message": "Dernière récupération : $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastError": {
+    "message": "Dernière erreur : $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupClearCache": {
+    "message": "Vider le cache"
+  }
+}

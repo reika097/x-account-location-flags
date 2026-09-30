@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Account Location Flags for X"
+  },
+  "extDescription": {
+    "message": "Shows the flag of the country an X account is based in next to its @handle on profiles and hover cards, with a VPN indicator."
+  },
+  "actionTitle": {
+    "message": "Account Location Flags"
+  },
+  "tooltipBasedIn": {
+    "message": "Account based in: $COUNTRY$",
+    "placeholders": {
+      "country": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipSource": {
+    "message": "Connected via: $SOURCE$",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipVpn": {
+    "message": "⚠ May be connecting via VPN or proxy (as determined by X)"
+  },
+  "popupScope": {
+    "message": "Flags appear next to the @handle on profile pages and hover cards."
+  },
+  "popupEnabled": {
+    "message": "Enabled"
+  },
+  "popupShowVpn": {
+    "message": "Show VPN mark"
+  },
+  "popupInterval": {
+    "message": "Request interval (sec)"
+  },
+  "popupTtl": {
+    "message": "Keep cache for (days)"
+  },
+  "popupCached": {
+    "message": "Cached accounts: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupRateLimited": {
+    "message": "Rate limited (resumes at $TIME$)",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastFetched": {
+    "message": "Last fetched: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastError": {
+    "message": "Last error: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupClearCache": {
+    "message": "Clear cache"
+  }
+}

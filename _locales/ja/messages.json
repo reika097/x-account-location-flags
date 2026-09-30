@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "アカウント所在国フラッグ for X"
+  },
+  "extDescription": {
+    "message": "X のプロフィールとホバーカードで、@ID の横にアカウントの所在国の国旗を表示します。VPN 利用の可能性があるアカウントにはマークを付けます。"
+  },
+  "actionTitle": {
+    "message": "アカウント所在国フラッグ"
+  },
+  "tooltipBasedIn": {
+    "message": "所在国: $COUNTRY$",
+    "placeholders": {
+      "country": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipSource": {
+    "message": "接続元: $SOURCE$",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipVpn": {
+    "message": "⚠ VPN またはプロキシ経由の可能性があります（X の判定）"
+  },
+  "popupScope": {
+    "message": "プロフィール画面とホバーカードの @ID の横に国旗を表示します。"
+  },
+  "popupEnabled": {
+    "message": "有効にする"
+  },
+  "popupShowVpn": {
+    "message": "VPN マークを表示"
+  },
+  "popupInterval": {
+    "message": "リクエスト間隔（秒）"
+  },
+  "popupTtl": {
+    "message": "キャッシュ保持（日）"
+  },
+  "popupCached": {
+    "message": "キャッシュ済み: $COUNT$ アカウント",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupRateLimited": {
+    "message": "レート制限中（$TIME$ に再開）",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastFetched": {
+    "message": "最終取得: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastError": {
+    "message": "直近のエラー: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupClearCache": {
+    "message": "キャッシュを削除"
+  }
+}

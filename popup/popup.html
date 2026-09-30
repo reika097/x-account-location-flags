@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Account Location Flags</title>
+  <style>
+    :root { color-scheme: light dark; --fg: #0f1419; --sub: #536471; --line: #eff3f4; --bg: #fff; --btn-hover: #f7f9f9; --border: #cfd9de; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fg: #e7e9ea; --sub: #71767b; --line: #2f3336; --bg: #000; --btn-hover: #16181c; --border: #536471; }
+    }
+    body { width: 300px; margin: 0; padding: 14px; font: 13px system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--fg); background: var(--bg); }
+    h1 { display: flex; align-items: center; gap: 8px; font-size: 15px; margin: 0 0 6px; }
+    h1 img { width: 20px; height: 20px; }
+    .scope { color: var(--sub); margin: 0 0 10px; line-height: 1.5; }
+    label { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 8px 0; }
+    input[type="number"] { width: 64px; }
+    .vpn { display: inline-block; font-size: 10px; font-weight: 700; line-height: 14px; padding: 0 4px; border-radius: 4px; background: #f4212e; color: #fff; margin-left: 4px; }
+    .stats { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line); color: var(--sub); line-height: 1.6; }
+    .err { color: #f4212e; word-break: break-all; }
+    button { margin-top: 10px; width: 100%; padding: 6px; border: 1px solid var(--border); border-radius: 999px; background: transparent; color: var(--fg); cursor: pointer; font: inherit; }
+    button:hover { background: var(--btn-hover); }
+  </style>
+</head>
+<body>
+  <h1><img src="../icons/icon32.png" alt="" /><span data-i18n="actionTitle"></span></h1>
+  <p class="scope" data-i18n="popupScope"></p>
+  <label><span data-i18n="popupEnabled"></span> <input type="checkbox" id="enabled" /></label>
+  <label><span><span data-i18n="popupShowVpn"></span><span class="vpn">VPN</span></span> <input type="checkbox" id="showVpn" /></label>
+  <label><span data-i18n="popupInterval"></span> <input type="number" id="intervalSec" min="0.5" step="0.5" /></label>
+  <label><span data-i18n="popupTtl"></span> <input type="number" id="ttlDays" min="1" step="1" /></label>
+  <div class="stats">
+    <div id="count"></div>
+    <div id="state"></div>
+    <div id="error" class="err"></div>
+  </div>
+  <button id="clear" data-i18n="popupClearCache"></button>
+  <script src="popup.js"></script>
+</body>
+</html>

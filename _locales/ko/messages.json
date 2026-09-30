@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "X 계정 위치 국기"
+  },
+  "extDescription": {
+    "message": "X 프로필과 호버 카드에서 @아이디 옆에 계정이 위치한 국가의 국기를 표시합니다. VPN 사용 가능성이 있는 계정에는 표시가 붙습니다."
+  },
+  "actionTitle": {
+    "message": "계정 위치 국기"
+  },
+  "tooltipBasedIn": {
+    "message": "계정 위치: $COUNTRY$",
+    "placeholders": {
+      "country": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipSource": {
+    "message": "접속 경로: $SOURCE$",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipVpn": {
+    "message": "⚠ VPN 또는 프록시를 통해 접속 중일 수 있습니다 (X의 판단)"
+  },
+  "popupScope": {
+    "message": "프로필 페이지와 호버 카드의 @아이디 옆에 국기를 표시합니다."
+  },
+  "popupEnabled": {
+    "message": "사용"
+  },
+  "popupShowVpn": {
+    "message": "VPN 표시 보이기"
+  },
+  "popupInterval": {
+    "message": "요청 간격(초)"
+  },
+  "popupTtl": {
+    "message": "캐시 보관 기간(일)"
+  },
+  "popupCached": {
+    "message": "캐시된 계정: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupRateLimited": {
+    "message": "요청 제한 중 ($TIME$에 재개)",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastFetched": {
+    "message": "마지막 조회: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastError": {
+    "message": "최근 오류: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupClearCache": {
+    "message": "캐시 삭제"
+  }
+}

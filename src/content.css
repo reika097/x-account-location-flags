@@ -1,0 +1,30 @@
+.xflag {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin: 0 4px;
+  flex-shrink: 0;
+  vertical-align: middle;
+  align-self: center;
+  line-height: 1;
+  cursor: help;
+}
+
+.xflag-img {
+  height: 1.1em;
+  width: auto;
+  display: block;
+}
+
+.xflag-vpn {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 14px;
+  padding: 0 4px;
+  border-radius: 4px;
+  background: #f4212e;
+  color: #fff;
+  letter-spacing: 0.02em;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}

@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "X 账号所在地国旗"
+  },
+  "extDescription": {
+    "message": "在 X 的个人资料页和悬停卡片中，于 @用户名 旁显示账号所在国家/地区的国旗，并为可能使用 VPN 的账号添加标记。"
+  },
+  "actionTitle": {
+    "message": "账号所在地国旗"
+  },
+  "tooltipBasedIn": {
+    "message": "账号所在地：$COUNTRY$",
+    "placeholders": {
+      "country": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipSource": {
+    "message": "连接方式：$SOURCE$",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipVpn": {
+    "message": "⚠ 可能通过 VPN 或代理连接（由 X 判定）"
+  },
+  "popupScope": {
+    "message": "在个人资料页和悬停卡片的 @用户名 旁显示国旗。"
+  },
+  "popupEnabled": {
+    "message": "启用"
+  },
+  "popupShowVpn": {
+    "message": "显示 VPN 标记"
+  },
+  "popupInterval": {
+    "message": "请求间隔（秒）"
+  },
+  "popupTtl": {
+    "message": "缓存保留（天）"
+  },
+  "popupCached": {
+    "message": "已缓存账号：$COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupRateLimited": {
+    "message": "已达请求上限（$TIME$ 恢复）",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastFetched": {
+    "message": "最近获取：$TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastError": {
+    "message": "最近错误：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupClearCache": {
+    "message": "清除缓存"
+  }
+}

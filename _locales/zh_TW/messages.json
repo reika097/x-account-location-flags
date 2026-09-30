@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "X 帳號所在地國旗"
+  },
+  "extDescription": {
+    "message": "在 X 的個人檔案頁與懸停卡片中，於 @使用者名稱 旁顯示帳號所在國家/地區的國旗，並為可能使用 VPN 的帳號加上標記。"
+  },
+  "actionTitle": {
+    "message": "帳號所在地國旗"
+  },
+  "tooltipBasedIn": {
+    "message": "帳號所在地：$COUNTRY$",
+    "placeholders": {
+      "country": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipSource": {
+    "message": "連線方式：$SOURCE$",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipVpn": {
+    "message": "⚠ 可能透過 VPN 或 Proxy 連線（由 X 判定）"
+  },
+  "popupScope": {
+    "message": "在個人檔案頁與懸停卡片的 @使用者名稱 旁顯示國旗。"
+  },
+  "popupEnabled": {
+    "message": "啟用"
+  },
+  "popupShowVpn": {
+    "message": "顯示 VPN 標記"
+  },
+  "popupInterval": {
+    "message": "請求間隔（秒）"
+  },
+  "popupTtl": {
+    "message": "快取保留（天）"
+  },
+  "popupCached": {
+    "message": "已快取帳號：$COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupRateLimited": {
+    "message": "已達請求上限（$TIME$ 恢復）",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastFetched": {
+    "message": "最近取得：$TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastError": {
+    "message": "最近錯誤：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupClearCache": {
+    "message": "清除快取"
+  }
+}

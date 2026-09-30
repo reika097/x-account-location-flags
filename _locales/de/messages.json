@@ -1,0 +1,80 @@
+{
+  "extName": {
+    "message": "Konto-Standort-Flaggen für X"
+  },
+  "extDescription": {
+    "message": "Zeigt neben dem @Namen auf Profilen und Hover-Karten die Flagge des Landes, in dem ein X-Konto ansässig ist, mit VPN-Hinweis."
+  },
+  "actionTitle": {
+    "message": "Konto-Standort-Flaggen"
+  },
+  "tooltipBasedIn": {
+    "message": "Konto ansässig in: $COUNTRY$",
+    "placeholders": {
+      "country": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipSource": {
+    "message": "Verbunden über: $SOURCE$",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      }
+    }
+  },
+  "tooltipVpn": {
+    "message": "⚠ Verbindung möglicherweise über VPN oder Proxy (laut X)"
+  },
+  "popupScope": {
+    "message": "Flaggen erscheinen neben dem @Namen auf Profilseiten und Hover-Karten."
+  },
+  "popupEnabled": {
+    "message": "Aktiviert"
+  },
+  "popupShowVpn": {
+    "message": "VPN-Markierung anzeigen"
+  },
+  "popupInterval": {
+    "message": "Abstand zwischen Anfragen (s)"
+  },
+  "popupTtl": {
+    "message": "Cache behalten (Tage)"
+  },
+  "popupCached": {
+    "message": "Zwischengespeicherte Konten: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupRateLimited": {
+    "message": "Anfragelimit erreicht (weiter um $TIME$)",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastFetched": {
+    "message": "Zuletzt abgerufen: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupLastError": {
+    "message": "Letzter Fehler: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupClearCache": {
+    "message": "Cache leeren"
+  }
+}
